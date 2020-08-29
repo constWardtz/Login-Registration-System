@@ -38,7 +38,7 @@
             
             <!-- Buttons -->
             <div class="container text-center">
-                <a href="logout.php" class="btn btn-danger">Logout</a>
+                <a href="./logout/logout.php" class="btn btn-danger">Logout</a>
                 <a href="#" class="btn btn-primary">Home</a>
             </div>
         </div> 
