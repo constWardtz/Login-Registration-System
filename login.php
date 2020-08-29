@@ -1,5 +1,5 @@
 <?php
-    include './database.php';
+    include './database/database.php';
     session_start();
 ?>
 <!DOCTYPE html>
@@ -23,7 +23,7 @@
         <center><img src="./img/logo.png" width="200" height="200"></center>
         <h1 class="text-center">Login Here</h1>
         <p class="text-center">Fill out correctly</p>
-        <form action="login-action.php" method="post"> 
+        <form action="./config/login-action.php" method="post"> 
             <div class="form-group">
                 <label>Username:</label>
                 <input type="text" name="username" id="username" class="form-control" required>

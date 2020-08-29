@@ -1,5 +1,5 @@
  <?php
-    include './database.php';
+    include '../database/database.php';
 
 if(isset($_POST['registerBtn'])){
     $firstname = $_POST['firstname'];
@@ -12,7 +12,7 @@ if(isset($_POST['registerBtn'])){
 
     if($register){
         $_SESSION['username'] = $username;
-        header("Location: registration.php?register=success");
+        header("Location: ../registration.php?register=success");
     }else{
         error_reporting(E_ALL);
     }

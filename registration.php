@@ -1,5 +1,5 @@
 <?php
-    include './database.php';
+    include './database/database.php';
     session_start();
 ?>
 <!DOCTYPE html>
@@ -32,7 +32,7 @@
         <center><img src="./img/logo.png" width="170" height="170"></center>
         <h1 class="text-center">Registration</h1>
         <p class="text-center">Fill out correctly</p>
-        <form action="register-action.php" method="post">
+        <form action="./config/register-action.php" method="post">
             <div class="form-group">
                 <div class="row">
                     <div class="col">

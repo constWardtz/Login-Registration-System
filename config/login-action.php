@@ -1,5 +1,5 @@
  <?php
-    include 'database.php';
+    include '../database/database.php';
     session_start();
 
 if(isset($_POST['loginBtn'])){
@@ -10,8 +10,8 @@ if(isset($_POST['loginBtn'])){
     $row = mysqli_fetch_assoc($login);
     if($row >= 1){
         $_SESSION['username'] = $username;
-        header("Location: dashboard.php");
+        header("Location: ../dashboard.php");
     }else{
-        header("Location: login.php?login=error");
+        header("Location: ../login.php?login=error");
     }
 }
