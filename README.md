@@ -6,6 +6,6 @@
     - Simple dashboard
   
 ## Technologies
-    - Bootstrap
+    - Bootstrap V4
     - MySQL DB
     - PHP
