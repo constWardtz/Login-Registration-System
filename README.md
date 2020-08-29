@@ -5,3 +5,7 @@
     - Session 
     - Simple dashboard
   
+## Technologies
+    - Bootstrap
+    - MySQL DB
+    - PHP
